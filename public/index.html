@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nayla Sufiatuz | Portofolio</title>
+  <meta name="description" content="Portofolio pribadi siswa: web developer pemula yang dideploy dengan Cloudflare Workers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">NS</a>
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="sapaan" id="sapaan">Halo!</p>
+      <h1>Saya Nayla Suffiatuz,<br>membangun web dari nol.</h1>
+      <p class="lead">Siswa yang sedang belajar HTML, CSS, JavaScript, Git, dan deployment cloud. Website ini dideploy dari GitHub ke Cloudflare Workers.</p>
+      <div class="aksi">
+        <a class="btn" href="#proyek">Lihat proyek</a>
+        <button id="cek" class="btn btn-outline">Cek JavaScript</button>
+      </div>
+      <p id="hasil" role="status"></p>
+    </section>
+
+    <section id="tentang" class="blok">
+      <h2>Tentang saya</h2>
+      <p>Saya siswa kelas XII yang tertarik pada pengembangan web dan infrastruktur cloud. Saya suka mengubah ide sederhana menjadi halaman yang bisa dibuka siapa saja lewat satu tautan.</p>
+      <p>Saat ini saya mempelajari alur modern: kode di VS Code, versi di Git, repository di GitHub, lalu publikasi otomatis di Cloudflare.</p>
+    </section>
+
+    <section id="proyek" class="blok">
+      <h2>Proyek</h2>
+      <ul class="proyek">
+        <li>
+          <h3>Portofolio Pribadi</h3>
+          <p>Website yang sedang Anda lihat. Dibuat dengan HTML, CSS, dan JavaScript murni.</p>
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+        </li>
+        <li>
+          <h3>Catatan Git &amp; GitHub</h3>
+          <p>Kumpulan catatan belajar add, commit, push, dan alur branch.</p>
+          <span class="tag">Git</span><span class="tag">GitHub</span>
+        </li>
+        <li>
+          <h3>Deploy ke Cloudflare</h3>
+          <p>Latihan publikasi website statis dengan Workers Static Assets.</p>
+          <span class="tag">Cloudflare</span><span class="tag">Wrangler</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="keahlian" class="blok">
+      <h2>Keahlian</h2>
+      <ul class="skill">
+        <li><span>HTML</span><div class="bar" data-level="85"><i></i></div></li>
+        <li><span>CSS</span><div class="bar" data-level="75"><i></i></div></li>
+        <li><span>JavaScript</span><div class="bar" data-level="60"><i></i></div></li>
+        <li><span>Git &amp; GitHub</span><div class="bar" data-level="70"><i></i></div></li>
+      </ul>
+    </section>
+
+    <section id="kontak" class="blok kontak">
+      <h2>Mari terhubung</h2>
+      <p>Ganti tautan di bawah dengan akun milik Anda sendiri.</p>
+      <div class="aksi">
+        <a class="btn" href="https://github.com/naylasufiatuz" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-outline" href="mailto:naylasufiatuz@gmmail.com">Kirim email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="tahun">2026</span> Nayla Sufiatuz. Dideploy dengan Cloudflare Workers.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
